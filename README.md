@@ -3,7 +3,14 @@ overview
 
 
 refrancing 
+ZICWENGILE-ST10329200-WEDE-PART-1
+1 Plumbing Industry Registration Board (PIRB), 2023. About PIRB. [online] Available at: https://www.pirb.co.za [Accessed 26 Aug. 2025].
 
+2 South African Bureau of Standards (SABS), 2023. SANS 10252: Water Supply and SANS 10254: Installation of Water Heaters. [pdf] Available at: https://www.sabs.co.za [Accessed 26 Aug. 2025].
+
+3 National Building Regulations and Building Standards Act, 2023. Government Gazette No. 40874. [online] Available at: https://www.gov.za/documents/national-building regulations-and-building-standards-act [Accessed 26 Aug. 2025].
+
+4 South African National Standards (SANS), 2023.SANS 10400-P: Drainage. [pdf] Available at: https://www.sabs.co.za [Accessed 26 Aug. 2025].
 
 
 
