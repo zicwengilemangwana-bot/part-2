@@ -42,3 +42,28 @@ sreenshots
 <img width="584" height="763" alt="mobile" src="https://github.com/user-attachments/assets/82d11434-966d-4539-a97b-f2028c97fc99" />
 <img width="729" height="736" alt="tablet" src="https://github.com/user-attachments/assets/c9e52ce9-b6b8-48fa-a9df-05af8aa5cc2e" />
 <img width="919" height="827" alt="desktop" src="https://github.com/user-attachments/assets/b3af0f61-ca3b-4e3a-ae57-a15fad1cf98b" />
+
+## Part 3: JavaScript Functionality and SEO
+
+### Features Implemented
+- **Image Gallery with Lightbox**: Interactive gallery showcasing our projects with a lightbox effect for enlarged viewing
+- **Google Maps Integration**: Interactive map showing our office location
+- **Dynamic Service Filtering**: Real-time search functionality for our services
+- **Form Validation**: Client-side validation for enquiry and contact forms
+- **SEO Optimization**: Added proper meta tags, structured header hierarchy, and SEO-friendly URL structure
+
+### SEO Implementation
+- Added unique title tags and meta descriptions for all pages
+- Implemented proper header hierarchy (H1, H2, H3) throughout the site
+- Added alt text to all images for better accessibility and SEO
+- Created robots.txt and sitemap.xml for search engine crawlers
+
+## Changelog
+[Add your specific changes here as described in Step 1]
+
+## References
+- [W3Schools Lightbox Tutorial](https://www.w3schools.com/howto/howto_js_lightbox.asp) - Adapted code for the image gallery lightbox
+- [Formspree](https://formspree.io/) - Used for contact form submission handling
+- [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) - Used for interactive map implementation
+- [MDN Web Docs: Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation) - Reference for form validation techniques
+- [Stack Overflow: JavaScript Form Validation](https://stackoverflow.com/questions/12518246/best-way-to-implement-form-validation-using-javascript) - Used for form validation patterns
