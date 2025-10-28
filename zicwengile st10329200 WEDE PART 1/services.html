@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zee Plumbing Co. - Services</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Web Design & Development Services | zeeplumbing</title>
+<meta name="description" content="Explore our comprehensive web services including responsive design, e-commerce development, and search engine optimization.">
 </head>
 <body>
     <header>
@@ -21,7 +25,19 @@
             </ul>
         </nav>
     </header>
-
+<main>
+    <h1>Professional Web Design Services</h1>
+<section>
+  <h2>Our Core Services</h2>
+  <div class="service">
+    <h3>Responsive Web Design</h3>
+    <p>The key to successful web design is responsiveness. We ensure your website looks great on all devices.</p>
+  </div>
+  <div class="service">
+    <h3>E-Commerce Development</h3>
+    <p>We create user-friendly e-commerce solutions to help you sell online effectively.</p>
+  </div>
+</section>
     <main></main>
     </main><section class="services">
         <h2>Our Services</h2>
@@ -35,15 +51,83 @@
             <h3>Installation Services</h3>
             <p>Expert installation of sinks, toilets, showers, and water heaters.</p>
         </div>
+        <input type="text" id="search" placeholder="Search services...">
+        <div class ="service-item">
+            <div class ="service-item">
+                <img src="IMages/png5.jpg" alt="Drain Cleaning">
+                <h3>Drain Cleaning</h3>
+                <p>Professional drain cleaning services to prevent clogs and backups.</p>
+                <div class="service-item">
+                    <img src="IMages/png4.jpg" alt="Leak Detection">
+                    <h3>Leak Detection</h3>
+                    <p>Advanced leak detection services to identify and fix hidden leaks.</p>
+            </div>
         <div class="service-item">
             <img src="IMages/png2.jpg" alt="Maintenance">
             <h3>Maintenance</h3>
             <p>Routine inspections and maintenance to keep your plumbing in top shape.</p>
         </div>
     </section>
+     <section class="gallery">
+  <h2>Our Project Gallery</h2>
+  <div class="gallery-container">
+    <img src="IMages/PNG6.jpg" alt="Project 1" class="gallery-img" onclick="openLightbox('IMages/PNG6.jpg', 'Project 1')">
+    <img src="IMages/pnng7.jpg" alt="Project 2" class="gallery-img" onclick="openLightbox('IMages/pnng7.jpg', 'Project 2')">
+    <img src="IMages/PNG5.jpg" alt="Project 3" class="gallery-img" onclick="openLightbox('IMages/PNG5.jpg', 'Project 3')">
+    <img src="IMages/png4.jpg" alt="Project 4" class="gallery-img" onclick="openLightbox('IMages/png4.jpg', 'Project 4')">
+  </div>
+</section><section class="services-section">
+  <h2>Our Services we provide</h2>
+
+  <div class="filter-container">
+    <label for="service-filter">Filter Services:</label>
+    <input type="text" id="service-filter" placeholder="Type to search...">
+  </div>
+  
+  <div class="services-grid">
+    <div class="service-card" data-category="design">
+      <img src="IMages/png.jpg" alt="Web Design">
+      <h3>Web Design</h3>
+      <p>Custom design solutions for your business needs.</p>
+    </div>
+    <div class="service-card" data-category="development">
+      <img src="IMages/png3.jpg" alt="Web Development">
+      <h3>Web Development</h3>
+      <p>Building robust websites and applications.</p>
+    </div>
+    <div class="service-card" data-category="seo">
+      <img src="IMages/plumber-9892231_1280.webp" alt="SEO">
+      <h3>Search Engine Optimization</h3>
+      <p>Improving your online visibility and rankings.</p>
+    </div>
+    <!-- Add more service cards as needed -->
+    <div class="service-card" data-category="consulting">
+      <img src="IMages/png2.jpg" alt="Consulting">
+      
+      <h3>Consulting</h3>
+    <p>There from Zee Plumbing Co.</p>
+  </div>
+</section>           
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Professional Web Design & Development Services | Your Company Name</title>
+  <meta name="description" content="We provide professional web design, development, and SEO services to help your business grow online. Get a free quote today.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<!-- Lightbox structure -->
+<div id="lightbox" class="lightbox">
+  <span class="close-btn" onclick="closeLightbox()">&times;</span>
+  <img id="lightbox-img" class="lightbox-content">
+  <div id="lightbox-caption"></div>
+</div>
+
+</main>
 
     <footer>
         <p>&copy; 2023 Zee Plumbing Co. All rights reserved.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 </html>
