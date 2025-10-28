@@ -59,7 +59,7 @@ sreenshots
 - Created robots.txt and sitemap.xml for search engine crawlers
 
 ## Changelog
-[Add your specific changes here as described in Step 1]
+1 
 
 ## References
 - [W3Schools Lightbox Tutorial](https://www.w3schools.com/howto/howto_js_lightbox.asp) - Adapted code for the image gallery lightbox
